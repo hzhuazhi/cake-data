@@ -8,7 +8,7 @@ package com.cake.data.master.core.common.utils.constant;
  */
 public enum SystemKeysEnum {
 
-    FRUIT_DATA("FRD", "水果-数据"),
+    CAKE_DATA("CKD", "蛋糕-数据"),
 
 
     ;
