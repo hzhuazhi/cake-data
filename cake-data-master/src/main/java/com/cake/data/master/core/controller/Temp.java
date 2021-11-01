@@ -25,6 +25,7 @@ public class Temp {
      * @return
      */
     public static boolean belongCalendar(Date nowTime, Date beginTime, Date endTime) {
+        System.out.print("hello world!");
         //设置当前时间
         Calendar date = Calendar.getInstance();
         date.setTime(nowTime);
@@ -40,7 +41,7 @@ public class Temp {
         } else {
             return false;
         }
-        System.out.print("hello world!");
+
     }
 
 //    public static int getGroupNumByMoney(String balance, String groupMinMoney, int groupNum){
