@@ -40,6 +40,7 @@ public class Temp {
         } else {
             return false;
         }
+        System.out.print("hello world!");
     }
 
 //    public static int getGroupNumByMoney(String balance, String groupMinMoney, int groupNum){
